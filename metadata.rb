@@ -1,1 +1,1 @@
-name "coa.cookbook"
+name "test-cookbook"
