@@ -1,0 +1,15 @@
+DEPENDENCIES
+  application (= 5.0.0)
+  test-cookbook
+    path: .
+    metadata: true
+
+GRAPH
+  application (5.0.0)
+    poise (~> 2.4)
+    poise-service (~> 1.0)
+  poise (2.8.2)
+  poise-service (1.5.2)
+    poise (~> 2.0)
+  test-cookbook (0.1.0)
+    application (= 5.0.0)
